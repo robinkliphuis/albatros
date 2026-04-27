@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "https://www.albatros.studio/:path*",
+      "destination": "https://albatros.studio/:path*",
+      "permanent": true
+    }
+  ]
+}

@@ -1,7 +1,13 @@
 {
   "redirects": [
     {
-      "source": "https://www.albatros.studio/:path*",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.albatros.studio"
+        }
+      ],
       "destination": "https://albatros.studio/:path*",
       "permanent": true
     }

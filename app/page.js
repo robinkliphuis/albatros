@@ -39,7 +39,7 @@ const styles = {
     fontWeight: 600,
   },
   link: {
-    color: '#0b6e4f',
+    color: '#c62828',
     textDecoration: 'none',
   },
   footer: {

@@ -1,0 +1,8 @@
+{
+  "name": "albatros-studio-site",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "vercel-build": "mkdir -p dist && cp index.html dist/index.html"
+  }
+}

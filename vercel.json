@@ -1,0 +1,17 @@
+{
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.albatros.studio"
+        }
+      ],
+      "destination": "https://albatros.studio/:path*",
+      "permanent": true
+    }
+  ]
+}
